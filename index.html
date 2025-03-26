@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Solitaire Online - Free Klondike Card Game | Classic Patience Game</title>
+    <meta name="description" content="Play classic Solitaire (Klondike) online for free. Master card strategies, learn rules, and enjoy this timeless single-player card game. No download needed, mobile-friendly, and completely free!">
+    <meta name="keywords" content="solitaire, klondike solitaire, free solitaire game, online card game, patience game, classic solitaire">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @media (max-width: 640px) {
+            .game-container {
+                aspect-ratio: 3/4 !important;
+            }
+        }
+        .custom-shadow {
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .hover-scale {
+            transition: transform 0.2s ease-in-out;
+        }
+        .hover-scale:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <main class="flex-1 bg-gray-50 py-2 sm:py-3">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <!-- Game Container -->
+            <div class="w-full flex flex-col items-center">
+                <div class="w-full max-w-4xl aspect-[4/3] relative game-container mb-8">
+                    <iframe
+                        title="Play Solitaire Online"
+                        src="https://solitaires-online.com/"
+                        class="absolute top-0 left-0 w-full h-full border-0 rounded-lg shadow-lg"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+            </div>
+
+            <!-- Enhanced Intro Section -->
+            <div class="mt-12 flex flex-col items-center px-4 sm:px-6 lg:px-8">
+                <!-- Header Section -->
+                <div class="w-full max-w-4xl text-center space-y-8 mb-12">
+                    <h1 class="text-5xl font-bold text-gray-900">Solitaire - The Classic Card Game</h1>
+                    <div class="text-gray-600 space-y-4">
+                        <p class="text-lg">
+                            Welcome to Solitaire, also known as Klondike or Patience, the world's most popular single-player card game. This timeless classic has entertained millions since its inception in the late 19th century.
+                        </p>
+                        <p class="text-lg">
+                            Challenge yourself with this strategic card game where your goal is to sort all cards by suit from Ace to King. Perfect for both quick breaks and extended gaming sessions, Solitaire helps improve concentration, strategic thinking, and pattern recognition.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Main Content -->
+                <div class="max-w-6xl w-full space-y-10">
+                    <div class="bg-white p-8 lg:p-12 rounded-xl shadow-md border border-gray-100">
+                        <!-- Quick Start Guide -->
+                        <section class="mb-12">
+                            <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-8 text-center">
+                                Quick Start Guide
+                            </h2>
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div class="bg-blue-50 p-6 rounded-lg hover-scale custom-shadow">
+                                    <h3 class="text-xl font-semibold text-blue-900 mb-4">Game Objective</h3>
+                                    <p class="text-blue-800">
+                                        Build four foundation piles by suit, starting with Aces and ending with Kings. Complete all four piles to win the game!
+                                    </p>
+                                </div>
+                                <div class="bg-green-50 p-6 rounded-lg hover-scale custom-shadow">
+                                    <h3 class="text-xl font-semibold text-green-900 mb-4">Getting Started</h3>
+                                    <p class="text-green-800">
+                                        Begin by revealing cards in the tableau and look for possible moves. Start building your foundation piles with any available Aces.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Enhanced Game Layout Section -->
+                        <section class="mb-12">
+                            <h2 class="text-2xl font-semibold text-gray-900 mb-6">Complete Game Layout Guide</h2>
+                            <div class="bg-gray-50 p-6 rounded-lg space-y-6">
+                                <div class="space-y-3 text-gray-600">
+                                    <h3 class="text-xl font-medium text-gray-800">Stock Pile (Draw Pile)</h3>
+                                    <p>• Located in the top left corner</p>
+                                    <p>• Contains face-down cards you can draw from</p>
+                                    <p>• Click to draw one or three cards (depending on game variation)</p>
+                                </div>
+                                
+                                <div class="space-y-3 text-gray-600">
+                                    <h3 class="text-xl font-medium text-gray-800">Waste Pile</h3>
+                                    <p>• Next to the Stock Pile</p>
+                                    <p>• Shows cards drawn from the Stock Pile</p>
+                                    <p>• Top card is available for play</p>
+                                </div>
+
+                                <div class="space-y-3 text-gray-600">
+                                    <h3 class="text-xl font-medium text-gray-800">Foundation Piles</h3>
+                                    <p>• Four piles in the top right</p>
+                                    <p>• Build up from Ace to King by suit</p>
+                                    <p>• Completing these piles is your goal</p>
+                                </div>
+
+                                <div class="space-y-3 text-gray-600">
+                                    <h3 class="text-xl font-medium text-gray-800">Tableau</h3>
+                                    <p>• Seven columns of cards</p>
+                                    <p>• Main play area where most moves occur</p>
+                                    <p>• Build down in alternating colors</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Enhanced Game Rules -->
+                        <section class="mb-12">
+                            <h2 class="text-2xl font-semibold text-gray-900 mb-6">Comprehensive Game Rules</h2>
+                            <div class="space-y-6">
+                                <div class="bg-gray-50 p-6 rounded-lg">
+                                    <h3 class="text-xl font-medium text-gray-900 mb-4">Tableau Rules</h3>
+                                    <div class="space-y-3 text-gray-600">
+                                        <p>1. Cards must be placed in alternating colors (red and black)</p>
+                                        <p>2. Build in descending order (King to Ace)</p>
+                                        <p>3. Only Kings can be placed on empty columns</p>
+                                        <p>4. Can move single cards or groups of properly sequenced cards</p>
+                                    </div>
+                                </div>
+
+                                <div class="bg-gray-50 p-6 rounded-lg">
+                                    <h3 class="text-xl font-medium text-gray-900 mb-4">Foundation Rules</h3>
+                                    <div class="space-y-3 text-gray-600">
+                                        <p>1. Start each foundation pile with an Ace</p>
+                                        <p>2. Build up in sequence within the same suit</p>
+                                        <p>3. Cards can be moved back to the tableau if needed</p>
+                                        <p>4. All four piles must be completed to win</p>
+                                    </div>
+                                </div>
+
+                                <div class="bg-gray-50 p-6 rounded-lg">
+                                    <h3 class="text-xl font-medium text-gray-900 mb-4">Stock and Waste Pile Rules</h3>
+                                    <div class="space-y-3 text-gray-600">
+                                        <p>1. Draw cards when no moves are available</p>
+                                        <p>2. Only the top waste pile card is playable</p>
+                                        <p>3. Recycle through the deck multiple times if needed</p>
+                                        <p>4. Some variations limit the number of times through the deck</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Enhanced Strategy Tips -->
+                        <section class="mb-12">
+                            <h2 class="text-2xl font-semibold text-gray-900 mb-6">Winning Strategies</h2>
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div class="bg-gray-50 p-6 rounded-lg">
+                                    <h3 class="text-xl font-medium text-gray-900 mb-4">Basic Strategies</h3>
+                                    <ul class="space-y-3 text-gray-600 list-disc pl-5">
+                                        <li>Always try to reveal face-down cards in the tableau</li>
+                                        <li>Keep color balance in mind when making moves</li>
+                                        <li>Don't rush to move cards to foundation piles</li>
+                                        <li>Create empty columns when possible</li>
+                                    </ul>
+                                </div>
+
+                                <div class="bg-gray-50 p-6 rounded-lg">
+                                    <h3 class="text-xl font-medium text-gray-900 mb-4">Advanced Tips</h3>
+                                    <ul class="space-y-3 text-gray-600 list-disc pl-5">
+                                        <li>Plan several moves ahead</li>
+                                        <li>Use foundation piles as temporary storage</li>
+                                        <li>Keep track of buried cards</li>
+                                        <li>Consider alternative move sequences</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Enhanced FAQ Section -->
+                        <section>
+                            <h2 class="text-2xl font-semibold text-gray-900 mb-6">Frequently Asked Questions</h2>
+                            <div class="space-y-6">
+                                <div class="bg-gray-50 p-6 rounded-lg hover-scale">
+                                    <h3 class="text-lg font-medium text-gray-900 mb-2">Q: Can I move multiple cards at once?</h3>
+                                    <p class="text-gray-600">
+                                        A: Yes, you can move a sequence of cards together if they are in descending order and alternating colors. This is a crucial strategy for freeing up hidden cards and creating space for Kings.
+                                    </p>
+                                </div>
+
+                                <div class="bg-gray-50 p-6 rounded-lg hover-scale">
+                                    <h3 class="text-lg font-medium text-gray-900 mb-2">Q: What happens when I run out of cards in the stock pile?</h3>
+                                    <p class="text-gray-600">
+                                        A: When you run out of cards in the stock pile, you can flip the waste pile over to create a new stock pile. This allows you to go through the deck multiple times. Some variations limit the number of times you can do this.
+                                    </p>
+                                </div>
+
+                                <div class="bg-gray-50 p-6 rounded-lg hover-scale">
+                                    <h3 class="text-lg font-medium text-gray-900 mb-2">Q: Is every game winnable?</h3>
+                                    <p class="text-gray-600">
+                                        A: Not all Solitaire games are winnable. Studies suggest that approximately 80-90% of games can be won with optimal play. Factors like card distribution and initial layout significantly impact winnability. Don't get discouraged if you can't win every game!
+                                    </p>
+                                </div>
+
+                                <div class="bg-gray-50 p-6 rounded-lg hover-scale">
+                                    <h3 class="text-lg font-medium text-gray-900 mb-2">Q: Can I undo my moves?</h3>
+                                    <p class="text-gray-600">
+                                        A: Yes, you can undo your last move using the Ctrl+Z shortcut or the undo button. This feature is especially helpful when learning the game or when you want to try different strategies. Some versions may limit the number of undos available.
+                                    </p>
+                                </div>
+
+                                <div class="bg-gray-50 p-6 rounded-lg hover-scale">
+                                    <h3 class="text-lg font-medium text-gray-900 mb-2">Q: How is the score calculated?</h3>
+                                    <p class="text-gray-600">
+                                        A: Scoring varies by version, but typically you earn points for:
+                                        <br>• Moving cards to foundation piles (10 points)
+                                        <br>• Turning over face-down cards (5 points)
+                                        <br>• Moving cards from waste to tableau (5 points)
+                                        <br>Time bonuses may also apply in some versions.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- History and Fun Facts -->
+                        <section class="mt-12">
+                            <h2 class="text-2xl font-semibold text-gray-900 mb-6">History and Fun Facts</h2>
+                            <div class="bg-gray-50 p-6 rounded-lg space-y-4">
+                                <p class="text-gray-600">
+                                    Solitaire, particularly the Klondike variation, gained widespread popularity during the Klondike Gold Rush of the 1890s. Prospectors would play to pass time in their camps, giving the game its name.
+                                </p>
+                                <p class="text-gray-600">
+                                    The game reached new heights of popularity in 1990 when Microsoft included it with Windows 3.0, making it one of the most played computer games of all time.
+                                </p>
+                                <p class="text-gray-600">
+                                    Today, millions of people play Solitaire daily, making it one of the most enduring card games in history.
+                                </p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-100 mt-12 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-600">
+            <p>Play Solitaire online for free. No download required. Mobile-friendly version.</p>
+            <p class="mt-2">© 2025 Solitaire Online. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 
